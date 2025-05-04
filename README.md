@@ -1,33 +1,90 @@
-# Getting Started with Create React App
+# Getting Started with Movie Reviews
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive movie review website built with React and Chakra UI.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Dark mode by default with theme switching
+- Responsive design for all screen sizes
+- Movie cards with ratings and genres
+- Horizontal carousels for movie categories
+- Language-based movie categorization
+- Search functionality
+- Static site generation ready
+- SEO-friendly structure
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node.js (v14 or higher)
+- npm or yarn
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+### Development
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### Deployment
+
+To deploy to GitHub Pages:
+
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+
+2. Deploy to GitHub Pages:
+   ```bash
+   npm run deploy
+   ```
+
+## Google Analytics Setup
+
+To add Google Analytics:
+
+1. Create a `.env` file in the root directory
+2. Add your GA Measurement ID:
+   ```
+   REACT_APP_GA_MEASUREMENT_ID=YOUR_MEASUREMENT_ID
+   ```
+
+## Project Structure
+
+```
+src/
+├── components/      # Reusable UI components
+├── pages/          # Page components
+├── theme/          # Chakra UI theme configuration
+├── data/           # Static data files
+├── utils/          # Utility functions
+└── types/          # TypeScript type definitions
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### `npm run eject`
 
