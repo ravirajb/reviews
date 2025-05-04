@@ -10,7 +10,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
-      <Router>
+      <Router basename="/reviews">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
