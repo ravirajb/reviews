@@ -2,6 +2,10 @@
 
 A modern, responsive movie review website built with React and Chakra UI.
 
+## Live Demo
+
+Check out the live site: [https://ravirajb.github.io/reviews](https://ravirajb.github.io/reviews)
+
 ## Features
 
 - Dark mode by default with theme switching
