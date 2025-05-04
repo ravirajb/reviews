@@ -2,7 +2,7 @@
   "name": "reviews",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ravirajb.github.io/reviews",
+  "homepage": "https://ravirajb.github.io/reviews/",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/react": "^2.8.2",
